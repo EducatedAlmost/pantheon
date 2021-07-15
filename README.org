@@ -1,0 +1,26 @@
+* Pantheon
+Pantheon is a collaborative project to help developers learn to work with microservice architectures. Its name reflects the variety of roles and languages of the individual microservices. Developers who want to collaborate in this project can contribute to existing services, or make their own. Pantheon is a welcoming project to developers of all skill sets and skill levels.
+
+* Microservices
+Provisionally, Pandora collects financial data, and the services can perform a variety of tasks with it.
+
+#+attr_org: :width 600px
+[[./2021-07-15-195004_1425x978_scrot.png]]
+
+** Hermes.py
+Hermes pulls the data from remote sources
+
+** Thoth.cs
+Thoth handles commands and writes data to a database
+
+** Pandora
+Pandora is a database that stores financial data
+
+** Demeter.java
+Demeter handles queries to the database
+
+** Athena.py
+Athena performs analysis and machine learning of the data
+
+** Hestia.js
+Hestia is a web view of the database
